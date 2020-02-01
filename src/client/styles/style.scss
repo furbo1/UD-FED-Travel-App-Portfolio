@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url('../Images/bg2.jpg');
+    background-size: cover;
+    margin: 0;
+}
+  
+main {
+    flex: 2;
+}
+
+#heading {
+    padding: 20px;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 70px;
+    margin: auto;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    align-items: center;
+}
+
+
+.field {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;    
+    border-radius: 7px;
+    border-color: darkslategray;
+    // -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    // -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    // box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+
+.field:focus {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+    outline: 0;
+}
+
+#place{
+    padding: 7px 6px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.remove {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 10px 0px;
+}
+
+.disapear {
+    display: none;
+}
+
+.trip {
+    background-color: rgba(20, 20, 30, 0.9);
+    padding: 20px;
+    color: #ecebeb;
+}
+
+img {
+    max-width: 760px;
+}
+
+h2, h3, h4, p {
+    margin: 5px 0px;
+}
+
+p {
+    font-size: 17px;
+}
