@@ -1,3 +1,6 @@
+![Alt text](https://github.com/furbo1/UD-FED-Travel-App-Portfolio/blob/master/travelapp.gif)
+
+
 # Project Description
 
 This Travel App project uses three different third party APIs:
